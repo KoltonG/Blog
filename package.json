@@ -1,0 +1,18 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "Vacation Blog",
+  "main": "run.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kolton Gagnon",
+  "license": "ISC",
+  "dependencies": {
+    "pug": "^2.0.0-beta6"
+  },
+  "jshintConfig": {
+    "strict": true,
+    "node": true
+  }
+}

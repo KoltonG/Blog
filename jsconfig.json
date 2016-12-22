@@ -1,0 +1,9 @@
+// VS Code Javascript Project Definiton
+{
+  "compilerOption": {
+    "target": "ES6"
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
