@@ -22,7 +22,7 @@ router.get('/Blog/resources/:name', (req, res) => {
  * Render the index template page
  * TODO why does the IoT project does not need this
  */
-router.get('/', (req, res) => {
+router.get('/Blog/', (req, res) => {
   res.sendFile('docs/index.html', {'root': __dirname + '/../../../'});
 });
 

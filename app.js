@@ -36,7 +36,7 @@ app.use(require('./app/server/controllers/'));
 /************************************/
 /********** STATICS ROUTES **********/
 /************************************/
-app.use('/Blog', express.static(__dirname + '/docs'));
+app.use('/Blog/', express.static(__dirname + '/docs'));
 
 
 /**********************************/

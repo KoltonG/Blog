@@ -14,18 +14,18 @@ function($stateProvider, $urlRouterProvider, $locationProvider, $compileProvider
   // Fix url ui router issue
   $locationProvider.html5Mode(true);
   // Routes
-  $stateProvider
-    .state('landing', {
-      url: '/',
-      templateUrl: '/Blog/partials/blog.html',
-      controller: 'blogLandingController'
-    })
-    .state('blog-article', {
-      url: '/articles/:articleName',
-      // TODO this should be changed
-      templateUrl: '/Blog/partials/?.html',
-      controller: 'blogArticleController'
-    });
+  // $stateProvider
+  //   .state('landing', {
+  //     url: '/Blog/',
+  //     templateUrl: '/Blog/partials/blog.html',
+  //     controller: 'blogLandingController'
+  //   })
+  //   .state('blog-article', {
+  //     url: '/Blog/articles/:articleName',
+  //     // TODO this should be changed
+  //     templateUrl: '/Blog/partials/?.html',
+  //     controller: 'blogArticleController'
+  //   });
 
-  $urlRouterProvider.otherwise('/');
+  $urlRouterProvider.otherwise('/Blog/');
 }]);
