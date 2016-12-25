@@ -1,5 +1,5 @@
 'use strict';
-// FIXME change this to grunt taks
+// FIXME: change this to grunt taks
 /******************************/
 /********** PACKAGES **********/
 /******************************/

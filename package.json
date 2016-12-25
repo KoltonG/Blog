@@ -8,7 +8,7 @@
   },
   "author": "Kolton Gagnon",
   "license": "ISC",
-  "//": "TODO what should be in devDependencies and not",
+  "//": "TODO: what should be in devDependencies and not",
   "devDependencies": {
     "autoprefixer": "^6.6.0",
     "concat-files": "^0.1.1",

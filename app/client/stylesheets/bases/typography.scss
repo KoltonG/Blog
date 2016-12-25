@@ -1,0 +1,23 @@
+//===========================//
+//========== FONTS ==========//
+//===========================//
+@import url($primary-font);
+
+body {
+  @extend %font-smoothing;
+  color: $black;
+  font-family: 'Lato', sans-serif;
+}
+
+//=====================================//
+//========== FONTS FUNCTIONS ==========//
+//=====================================//
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}

@@ -1,5 +1,5 @@
 // VS Code Javascript Project Definiton
-// TODO not sure what this does
+// TODO: not sure what this does
 {
   "compilerOption": {
     "target": "ES6"

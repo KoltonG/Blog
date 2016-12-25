@@ -1,5 +1,5 @@
 'use strict';
-// FIXME change this to Gulp Task
+// FIXME: change this to Gulp Task
 /******************************/
 /********** PACKAGES **********/
 /******************************/

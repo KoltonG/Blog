@@ -1,5 +1,5 @@
 'use strict';
-// FIXME should replace this with all gulp task
+// FIXME: should replace this with all gulp task
 /******************************/
 /********** PACKAGES **********/
 /******************************/

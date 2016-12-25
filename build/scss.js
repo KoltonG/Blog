@@ -1,5 +1,5 @@
 'use strict';
-// FIXME change this to Grunt Tasks
+// FIXME: change this to Grunt Tasks
 /******************************/
 /********** PACKAGES **********/
 /******************************/
