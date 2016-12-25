@@ -2,17 +2,49 @@
   "name": "blog",
   "version": "1.0.0",
   "description": "Vacation Blog",
-  "main": "run.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "grunt",
+    "postinstall": "grunt"
   },
   "author": "Kolton Gagnon",
   "license": "ISC",
+  "//": "TODO what should be in devDependencies and not",
+  "devDependencies": {
+    "autoprefixer": "^6.6.0",
+    "concat-files": "^0.1.1",
+    "glob-all": "^3.1.0",
+    "grunt": "^1.0.1",
+    "grunt-concurrent": "^2.3.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-execute": "^0.2.2",
+    "grunt-nodemon": "^0.4.2",
+    "node-sass": "^4.1.1",
+    "open": "0.0.5",
+    "pug": "^2.0.0-beta6",
+    "uglify-js": "^2.7.5"
+  },
   "dependencies": {
-    "pug": "^2.0.0-beta6"
+    "body-parser": "^1.15.2",
+    "bunyan": "^1.8.5",
+    "express": "^4.14.0"
   },
   "jshintConfig": {
     "strict": true,
-    "node": true
+    "node": true,
+    "esnext": true,
+    "undef": true,
+    "unused": true,
+    "expr": true,
+    "predef": [
+      "angular",
+      "app",
+      "window",
+      "document",
+      "ga",
+      "-Promise",
+      "sessionStorage",
+      "Promise",
+      "parseInt"
+    ]
   }
 }
